@@ -48,7 +48,7 @@ import java.time.format.DateTimeFormatter;
 import java.util.UUID;
 import java.util.Objects;
 
-/// # 牛盾支付 SDK 客户端
+/// # 牛盾聚合支付 SDK 客户端
 ///
 /// 对照 sdk-contract.md 第十节。走 JSON 签名路径（reqTime 序列化为 GMT+8 字面量），与后端验签一致。
 public class NiuDunClient {

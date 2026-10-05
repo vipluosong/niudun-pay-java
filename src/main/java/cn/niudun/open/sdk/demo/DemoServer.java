@@ -151,7 +151,7 @@ public class DemoServer {
         server.createContext("/", this::dispatch);
         server.start();
 
-        System.out.println("牛盾支付 Java SDK 联调 Demo 已启动");
+        System.out.println("牛盾聚合支付 Java SDK 联调 Demo 已启动");
         System.out.println("  调试页面 : http://127.0.0.1:" + port);
         System.out.println("  平台地址 : " + niudunConfig.getServiceUrl() + "  (商户 " + niudunConfig.getMchNo() + ")");
         System.out.println("  密钥状态 : 商户私钥 " + (StrUtil.isNotBlank(niudunConfig.getPrivateKey()) ? "已配置" : "未配置")

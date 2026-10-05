@@ -9,8 +9,8 @@
     <version>1.0.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>牛盾支付 Open SDK for Java</name>
-    <description>牛盾支付 开放支付平台 Java SDK（核心支付子集：pay / close / refund / query / 回调验签）</description>
+    <name>牛盾聚合支付 Open SDK for Java</name>
+    <description>牛盾聚合支付 开放支付平台 Java SDK（核心支付子集：pay / close / refund / query / 回调验签）</description>
     <url>https://gitee.com/qyyapp/niudun-pay-java</url>
 
     <licenses>
