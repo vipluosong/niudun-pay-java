@@ -31,7 +31,7 @@ mvn clean install -Dmaven.test.skip=true
 ```xml
 <dependency>
     <groupId>cn.niudun.open</groupId>
-    <artifactId>niudun-open-sdk</artifactId>
+    <artifactId>niudun-pay</artifactId>
     <version>1.0.0-SNAPSHOT</version>
 </dependency>
 ```
