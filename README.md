@@ -66,7 +66,7 @@ mvn clean install -Dmaven.test.skip=true
 ```java
 // 配置（商户私钥 + 平台公钥，PEM 文本）
 NiuDunConfig config = new NiuDunConfig()
-        .setServiceUrl("https://ndpay-api.qyyapp.com")
+        .setServiceUrl("https://api.niudunpay.com")
         .setMchNo("M200000001")
         .setAppId("APP001")
         .setPrivateKey(privateKeyPem)
