@@ -24,9 +24,34 @@ git clone https://gitee.com/qyyapp/niudun-pay-java.git
 # GitHub（镜像）
 git clone https://github.com/vipluosong/niudun-pay-java.git
 
+### 方式二：JitPack（远程仓库，无需本地构建）
+
+在 https://jitpack.io/#vipluosong/niudun-pay-java 触发一次构建后即可直接引用：
+
+```xml
+<repositories>
+    <repository>
+        <id>jitpack.io</id>
+        <url>https://jitpack.io</url>
+    </repository>
+</repositories>
+
+<dependency>
+    <groupId>com.github.vipluosong</groupId>
+    <artifactId>niudun-pay-java</artifactId>
+    <version>v1.0.0</version>
+</dependency>
+```
+
+### 本地安装
+
+```bash
+git clone https://gitee.com/qyyapp/niudun-pay-java.git
 cd niudun-pay-java
 mvn clean install -Dmaven.test.skip=true
 ```
+
+安装到本地仓库后引用：
 
 ```xml
 <dependency>
