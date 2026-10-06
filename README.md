@@ -19,8 +19,12 @@
 ## 安装（源码引入）
 
 ```bash
+# Gitee（主仓）
 git clone https://gitee.com/qyyapp/niudun-pay-java.git
-cd niudun-pay-sdk-java
+# GitHub（镜像）
+git clone https://github.com/vipluosong/niudun-pay-java.git
+
+cd niudun-pay-java
 mvn clean install -Dmaven.test.skip=true
 ```
 
